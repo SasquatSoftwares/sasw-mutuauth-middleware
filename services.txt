@@ -1,0 +1,91 @@
+  UNIT                                                                                      LOAD   ACTIVE SUB     DESCRIPTION
+  abrt-journal-core.service                                                                 loaded active running Creates ABRT problems from coredumpctl messages
+  abrt-oops.service                                                                         loaded active running ABRT kernel log watcher
+  abrt-xorg.service                                                                         loaded active running ABRT Xorg log watcher
+  abrtd.service                                                                             loaded active running ABRT Automated Bug Reporting Tool
+  accounts-daemon.service                                                                   loaded active running Accounts Service
+  akmods.service                                                                            loaded active exited  Builds and install new kmods from akmod packages
+  alsa-state.service                                                                        loaded active running Manage Sound Card State (restore and store)
+  anydesk.service                                                                           loaded active running AnyDesk
+  appdynamics-machine-agent.service                                                         loaded active running AppDynamics Machine Agent
+  atd.service                                                                               loaded active running Deferred execution scheduler
+  auditd.service                                                                            loaded active running Security Auditing Service
+  avahi-daemon.service                                                                      loaded active running Avahi mDNS/DNS-SD Stack
+  chronyd.service                                                                           loaded active running NTP client/server
+  colord.service                                                                            loaded active running Manage, Install and Generate Color Profiles
+  containerd.service                                                                        loaded active running containerd container runtime
+  crond.service                                                                             loaded active running Command Scheduler
+  cups.service                                                                              loaded active running CUPS Scheduler
+  dbus-:1.3-org.freedesktop.problems@0.service                                              loaded active running dbus-:1.3-org.freedesktop.problems@0.service
+  dbus-broker.service                                                                       loaded active running D-Bus System Message Bus
+  dkms.service                                                                              loaded active exited  Builds and install new kernel modules through DKMS
+  docker.service                                                                            loaded active running Docker Application Container Engine
+  dracut-shutdown.service                                                                   loaded active exited  Restore /run/initramfs on shutdown
+  expressvpn.service                                                                        loaded active running ExpressVPN Daemon
+  firewalld.service                                                                         loaded active running firewalld - dynamic firewall daemon
+  gdm.service                                                                               loaded active running GNOME Display Manager
+  gssproxy.service                                                                          loaded active running GSSAPI Proxy Daemon
+  import-state.service                                                                      loaded active exited  Import network configuration from initramfs
+  kmod-static-nodes.service                                                                 loaded active exited  Create List of Static Device Nodes
+  livesys-late.service                                                                      loaded active exited  SYSV: Late init script for live image.
+  livesys.service                                                                           loaded active exited  LSB: Init script for live image.
+  low-memory-monitor.service                                                                loaded active running Low Memory Monitor
+  lvm2-monitor.service                                                                      loaded active exited  Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+  ModemManager.service                                                                      loaded active running Modem Manager
+  mongod.service                                                                            loaded active running MongoDB Database Server
+● NetworkManager-wait-online.service                                                        loaded failed failed  Network Manager Wait Online
+  NetworkManager.service                                                                    loaded active running Network Manager
+  packagekit.service                                                                        loaded active running PackageKit Daemon
+  pcscd.service                                                                             loaded active running PC/SC Smart Card Daemon
+  plymouth-quit-wait.service                                                                loaded active exited  Hold until boot process finishes up
+  plymouth-read-write.service                                                               loaded active exited  Tell Plymouth To Write Out Runtime Data
+  plymouth-start.service                                                                    loaded active exited  Show Plymouth Boot Screen
+  pm2-gustavoperez.service                                                                  loaded active running PM2 process manager
+  polkit.service                                                                            loaded active running Authorization Manager
+  postgresql-14.service                                                                     loaded active running PostgreSQL 14 database server
+  power-profiles-daemon.service                                                             loaded active running Power Profiles daemon
+  rpc-statd-notify.service                                                                  loaded active exited  Notify NFS peers of a restart
+  rtkit-daemon.service                                                                      loaded active running RealtimeKit Scheduling Policy Service
+  sssd-kcm.service                                                                          loaded active running SSSD Kerberos Cache Manager
+  switcheroo-control.service                                                                loaded active running Switcheroo Control Proxy service
+  systemd-fsck@dev-disk-by\x2duuid-7234a75e\x2d16d7\x2d435b\x2d9a42\x2d8c7e7e316948.service loaded active exited  File System Check on /dev/disk/by-uuid/7234a75e-16d7-435b-9a42-8c7e7e316948
+  systemd-fsck@dev-disk-by\x2duuid-CB8B\x2d8042.service                                     loaded active exited  File System Check on /dev/disk/by-uuid/CB8B-8042
+  systemd-homed-activate.service                                                            loaded active exited  Home Area Activation
+  systemd-homed.service                                                                     loaded active running Home Area Manager
+  systemd-journal-flush.service                                                             loaded active exited  Flush Journal to Persistent Storage
+  systemd-journald.service                                                                  loaded active running Journal Service
+  systemd-logind.service                                                                    loaded active running User Login Management
+  systemd-modules-load.service                                                              loaded active exited  Load Kernel Modules
+  systemd-oomd.service                                                                      loaded active running Userspace Out-Of-Memory (OOM) Killer
+  systemd-random-seed.service                                                               loaded active exited  Load/Save Random Seed
+  systemd-remount-fs.service                                                                loaded active exited  Remount Root and Kernel File Systems
+  systemd-resolved.service                                                                  loaded active running Network Name Resolution
+  systemd-sysctl.service                                                                    loaded active exited  Apply Kernel Variables
+  systemd-tmpfiles-setup-dev.service                                                        loaded active exited  Create Static Device Nodes in /dev
+  systemd-tmpfiles-setup.service                                                            loaded active exited  Create Volatile Files and Directories
+  systemd-udev-settle.service                                                               loaded active exited  Wait for udev To Complete Device Initialization
+  systemd-udev-trigger.service                                                              loaded active exited  Coldplug All udev Devices
+  systemd-udevd.service                                                                     loaded active running Rule-based Manager for Device Events and Files
+  systemd-update-utmp.service                                                               loaded active exited  Record System Boot/Shutdown in UTMP
+  systemd-user-sessions.service                                                             loaded active exited  Permit User Sessions
+  systemd-userdbd.service                                                                   loaded active running User Database Manager
+  systemd-vconsole-setup.service                                                            loaded active exited  Setup Virtual Console
+  systemd-zram-setup@zram0.service                                                          loaded active exited  Create swap on /dev/zram0
+  udisks2.service                                                                           loaded active running Disk Manager
+  upower.service                                                                            loaded active running Daemon for power management
+  uresourced.service                                                                        loaded active running User resource assignment daemon
+  user-runtime-dir@0.service                                                                loaded active exited  User Runtime Directory /run/user/0
+  user-runtime-dir@1000.service                                                             loaded active exited  User Runtime Directory /run/user/1000
+  user@0.service                                                                            loaded active running User Manager for UID 0
+  user@1000.service                                                                         loaded active running User Manager for UID 1000
+  vboxdrv.service                                                                           loaded active exited  Linux kernel module init script
+  vpnagentd.service                                                                         loaded active running Cisco AnyConnect Secure Mobility Client Agent
+  wpa_supplicant.service                                                                    loaded active running WPA supplicant
+  xrdp-sesman.service                                                                       loaded active running xrdp session manager
+  xrdp.service                                                                              loaded active running xrdp daemon
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+84 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.

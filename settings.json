@@ -1,0 +1,18 @@
+{
+    "middlewareService": {
+        "certPath": "/home/gustavoperez/code/pix/certs/comodo/pem/build/barperfeito_com_br.pem",
+        "clientKeyPath": "/home/gustavoperez/code/pix/certs/servidor/chave-privada-servidor-comodo.key",
+        "caBundlePath": "/home/gustavoperez/code/pix/certs/comodo/pem/build/ca-bundle.pem",
+        "servicePort": 3000
+    },
+    "destinationRoutes": [
+        {
+            "certFile": "/home/gustavoperez/code/pix/certs/comodo/pem/build/barperfeito_com_br.pem",
+            "keyFile": "/home/gustavoperez/code/pix/certs/servidor/chave-privada-servidor-comodo.key",
+            "caFile": "/home/gustavoperez/code/pix/certs/comodo/pem/build/ca-bundle.pem",
+            "originHostname": "barperfeito.com.br",
+            "destinationHostname": "www.barperfeito.com.br",
+            "destinationPort": 3220
+        }
+    ]
+}

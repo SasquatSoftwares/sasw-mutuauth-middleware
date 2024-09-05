@@ -1,0 +1,12 @@
+LICENÇA DE USO E CÓPIA DO MIDDLEWARE HTTPS DE CONVERSAO PARA AUTENTICACAO MÚTUA
+Copyright (c) 2023 Sasquat Softwares
+
+Todos os direitos reservados.
+
+Esta solução e todos os seus materiais correlatos são de propriedade exclusiva da Sasquat Softwares. O software está protegido por leis de copyright, tratados e patentes.
+
+Qualquer reprodução, modificação ou distribuição deste software ou dos materiais correlatos sem a autorização prévia e por escrito da Sasquat Softwares. é estritamente proibida.
+
+A Sasquat Softwares. reserva-se todos os direitos não expressamente concedidos. A utilização do software sem o devido consentimento pode resultar em infrações penais e civis graves, sujeitas ao máximo possível sob a lei.
+
+Se você deseja usar ou distribuir o software, entre em contato com a Sasquat Softwares. para obter permissão. É proibido fornecer uma cópia do software a qualquer outra pessoa ou entidade.

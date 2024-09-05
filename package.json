@@ -1,0 +1,43 @@
+{
+  "name": "mutuauth-middleware",
+  "version": "1.0.0",
+  "description": "Middleware de autenticação mútua para o agente da Kentik",
+  "main": "index.js",
+  "scripts": {
+    "pack": "npx webpack",
+    "obfuscate-pack": "javascript-obfuscator ./dist/mutuauth-middleware.js --output ./dist/final/ --compact true --self-defending true --exclude '__dirname'",
+    "compile": "cd ./dist/final && npx nexe ./mutuauth-middleware.js --build --python python3 -o ./mutuauth-middleware && cp ../../settings.json . && cp ../../license.key . && cp ../../*.sh .",
+    "rpmbuild": "rpmbuild -v -ba ./mutuauth-middleware.spec",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-setup-zip": "zip -j setup.zip dist/final/mutuauth-middleware settings.json license.key README.md LICENSE.txt start.sh stop.sh trace.sh",
+    "create-package-zip": "zip mutuauth-middleware-v1-0-0.zip install.sh uninstall.sh setup.zip README.md LICENSE.txt",
+    "build": "npm run pack && npm run obfuscate-pack && npm run compile && npm run create-setup-zip && npm run create-package-zip"
+  },
+  "pkg": {
+    "assets": [
+      "settings.json",
+      "logs/"
+    ]
+  },
+  "keywords": [
+    "kentik",
+    "agent",
+    "middleware",
+    "extension"
+  ],
+  "author": "Gustavo Pérez - Sasquat Softwares.",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "crypto-js": "^4.1.1",
+    "dotenv-webpack": "^8.0.1",
+    "javascript-obfuscator": "^4.0.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
